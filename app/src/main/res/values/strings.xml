@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">HD wallpapers</string>
+    <string name="current_wallpaper">Current wallpaper</string>
+    <string name="treding_wallpapers">Trending</string>
+    <string name="lock_screen_wallpaper">Lock screen wallpaper</string>
+    <string name="home_screen_wallpaper">Home screen wallpaper</string>
+    <string name="home_screen">Home screen</string>
+    <string name="lock_screen">Lock screen</string>
+</resources>
