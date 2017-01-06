@@ -12,7 +12,7 @@ import android.view.View;
 import android.view.ViewGroup;
 
 import com.leonius.hdwallpapers.R;
-import com.leonius.hdwallpapers.UI.Fragments.CurrentWallpaperFragment;
+import com.leonius.hdwallpapers.UI.Fragments.HomeFragment;
 
 
 /*
@@ -59,17 +59,17 @@ public class MainTabFragment extends Fragment{
 
     class MyAdapter extends FragmentPagerAdapter {
 
-        private CurrentWallpaperFragment currentWallpaperFragment;
+        private HomeFragment homeFragment;
 
         public MyAdapter(FragmentManager fm) {
             super(fm);
-            currentWallpaperFragment = new CurrentWallpaperFragment();
+            homeFragment = new HomeFragment();
         }
 
         @Override
         public Fragment getItem(int position) {
             switch (position){
-                case 0 : return currentWallpaperFragment;
+                case 0 : return homeFragment;
             }
             return null;
         }
